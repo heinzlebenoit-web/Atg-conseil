@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Contact — ATG Conseil | Demande de Diagnostic Bâtiment</title>
+  <meta name="description" content="Contactez ATG Conseil pour une demande de diagnostic bâtiment : charpente, couverture, étanchéité, sécurité. Réponse sous 24h ouvrées. Email : atgconseil@gmx.fr — Tél : +33 7 50 24 23 54." />
+  <meta name="keywords" content="contact ATG Conseil, devis diagnostic bâtiment, diagnostic charpente devis, expert toiture contact, Pierre-Jean Atger contact" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.atgconseil.fr/contact.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Contact — ATG Conseil | Diagnostic Bâtiment" />
+  <meta property="og:description" content="Demandez un diagnostic ou un devis à ATG Conseil. Réponse sous 24h ouvrées." />
+  <meta property="og:url" content="https://www.atgconseil.fr/contact.html" />
+  <meta property="og:image" content="https://www.atgconseil.fr/logo-atg.png" />
+  <meta property="og:locale" content="fr_FR" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact ATG Conseil",
+    "url": "https://www.atgconseil.fr/contact.html",
+    "mainEntity": {
+      "@type": "LocalBusiness",
+      "name": "ATG Conseil",
+      "telephone": "+33750242354",
+      "email": "atgconseil@gmx.fr",
+      "openingHours": "Mo-Fr 09:00-18:00",
+      "areaServed": { "@type": "Country", "name": "France" }
+    }
+  }
+  </script>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root { --noir: #111; --gris: #555; --gris-clair: #f5f5f3; --blanc: #fff; --accent: #1e3a6e; --accent-light: #2563eb; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Georgia', serif; background: var(--blanc); color: var(--noir); }
+
+    /* NAV */
+    nav { position: sticky; top: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; padding: 0.6rem 3rem; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); border-bottom: 1px solid #e5e5e5; }
+    .nav-logo { display: flex; align-items: center; text-decoration: none; }
+    .nav-logo img { height: 150px; width: auto; display: block; transition: transform 0.3s; }
+    .nav-logo img:hover { transform: scale(1.03); }
+    .nav-links { display: flex; gap: 2.2rem; list-style: none; }
+    .nav-links a { text-decoration: none; font-family: sans-serif; font-size: 0.88rem; color: var(--gris); transition: color 0.2s; position: relative; }
+    .nav-links a::after { content: ''; position: absolute; left: 0; bottom: -4px; width: 0; height: 2px; background: var(--accent-light); transition: width 0.3s; }
+    .nav-links a:hover, .nav-links a.active { color: var(--accent-light); }
+    .nav-links a:hover::after, .nav-links a.active::after { width: 100%; }
+    .nav-cta { background: var(--accent); color: var(--blanc); border: none; padding: 0.6rem 1.4rem; font-family: sans-serif; font-size: 0.85rem; cursor: pointer; transition: background 0.2s; border-radius: 4px; }
+    .nav-cta:hover { background: var(--accent-light); }
+
+    /* CONTACT MAIN */
+    .contact-main { display: grid; grid-template-columns: 1fr 1.6fr; min-height: calc(100vh - 97px); }
+
+    /* COLONNE GAUCHE */
+    .contact-left { padding: 5rem 3rem; border-right: 1px solid #e5e5e5; display: flex; flex-direction: column; justify-content: space-between; }
+    .page-tag { font-family: sans-serif; font-size: 0.72rem; letter-spacing: 3px; text-transform: uppercase; color: var(--gris); margin-bottom: 1.2rem; }
+    .contact-left h1 { font-size: clamp(1.8rem, 3.5vw, 2.8rem); font-weight: normal; line-height: 1.2; margin-bottom: 1.2rem; }
+    .contact-left h1 em { font-style: italic; color: var(--accent-light); }
+    .contact-left > p { font-family: sans-serif; font-size: 0.92rem; color: var(--gris); line-height: 1.75; max-width: 380px; }
+
+    .contact-infos { display: flex; flex-direction: column; gap: 2rem; margin-top: 3rem; }
+    .contact-info-item h3 { font-family: sans-serif; font-size: 0.68rem; letter-spacing: 2.5px; text-transform: uppercase; color: #aaa; margin-bottom: 0.4rem; }
+    .contact-info-item p, .contact-info-item a { font-family: sans-serif; font-size: 0.92rem; color: var(--noir); text-decoration: none; }
+    .contact-info-item a:hover { color: var(--accent-light); }
+
+    .social-links { display: flex; gap: 0.8rem; margin-top: 2.5rem; flex-wrap: wrap; }
+    .social-links a { font-family: sans-serif; font-size: 0.8rem; color: var(--gris); text-decoration: none; border: 1px solid #ddd; padding: 0.4rem 1rem; transition: border-color 0.2s, color 0.2s; border-radius: 3px; }
+    .social-links a:hover { border-color: var(--accent-light); color: var(--accent-light); }
+
+    /* COLONNE DROITE */
+    .contact-right { padding: 5rem 4rem; background: var(--gris-clair); }
+    .contact-right h2 { font-size: 1.5rem; font-weight: normal; margin-bottom: 2.5rem; }
+
+    .form-group { margin-bottom: 1.4rem; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.4rem; margin-bottom: 1.4rem; }
+    .form-group label { display: block; font-family: sans-serif; font-size: 0.72rem; letter-spacing: 1.5px; text-transform: uppercase; color: var(--gris); margin-bottom: 0.5rem; }
+    .form-group input, .form-group textarea, .form-group select {
+      width: 100%; background: var(--blanc); border: 1px solid #ddd;
+      padding: 0.85rem 1rem; font-family: sans-serif; font-size: 0.9rem;
+      color: var(--noir); outline: none; transition: border-color 0.2s; border-radius: 3px; appearance: none;
+    }
+    .form-group input:focus, .form-group textarea:focus, .form-group select:focus { border-color: var(--accent-light); }
+    .form-group textarea { min-height: 130px; resize: vertical; }
+
+    .budget-options { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin-top: 0.5rem; }
+    .budget-option { position: relative; }
+    .budget-option input[type="radio"] { position: absolute; opacity: 0; width: 0; height: 0; }
+    .budget-option label { display: block; text-align: center; padding: 0.7rem 0.4rem; border: 1px solid #ddd; background: var(--blanc); font-family: sans-serif; font-size: 0.8rem; color: var(--gris); cursor: pointer; transition: all 0.2s; border-radius: 3px; }
+    .budget-option input:checked + label { border-color: var(--accent-light); color: var(--accent-light); background: #eff6ff; }
+    .budget-option label:hover { border-color: #aaa; }
+
+    .submit-btn { width: 100%; background: var(--accent); color: var(--blanc); border: none; padding: 1rem; font-family: sans-serif; font-size: 0.92rem; letter-spacing: 0.5px; cursor: pointer; transition: background 0.2s; margin-top: 0.5rem; border-radius: 4px; }
+    .submit-btn:hover { background: var(--accent-light); }
+
+    .success-msg { display: none; text-align: center; padding: 4rem 2rem; font-family: sans-serif; }
+    .success-msg .checkmark { font-size: 2.5rem; margin-bottom: 1rem; }
+    .success-msg h3 { font-size: 1.3rem; font-weight: normal; margin-bottom: 0.8rem; color: var(--accent); }
+    .success-msg p { font-size: 0.9rem; color: var(--gris); line-height: 1.6; }
+
+    footer { padding: 1.5rem 3rem; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #e5e5e5; font-family: sans-serif; font-size: 0.82rem; color: var(--gris); }
+
+    @media (max-width: 900px) {
+      nav { padding: 0.6rem 1.5rem; }
+      .nav-links { display: none; }
+      .contact-main { grid-template-columns: 1fr; }
+      .contact-left { padding: 3rem 1.5rem; border-right: none; border-bottom: 1px solid #e5e5e5; }
+      .contact-right { padding: 3rem 1.5rem; }
+      .form-row { grid-template-columns: 1fr; }
+      .budget-options { grid-template-columns: repeat(2, 1fr); }
+      footer { flex-direction: column; gap: 0.5rem; text-align: center; padding: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav aria-label="Navigation principale">
+    <a class="nav-logo" href="index.html" aria-label="ATG Conseil — Accueil">
+      <img src="logo-atg.png" alt="ATG Conseil — Étude de Diagnostic" width="200" height="80" />
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="apropos.html">À propos</a></li>
+      <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+    </ul>
+    <a href="contact.html"><button class="nav-cta">Devis gratuit</button></a>
+  </nav>
+</header>
+
+<main class="contact-main">
+  <div class="contact-left">
+    <div>
+      <p class="page-tag">Contact</p>
+      <h1>Parlons de votre <em>projet</em></h1>
+      <p>Remplissez le formulaire ou contactez-nous directement. Nous vous répondons sous 24h ouvrées.</p>
+
+      <div class="contact-infos">
+        <div class="contact-info-item">
+          <h3>E-mail</h3>
+          <a href="mailto:atgconseil@gmx.fr">atgconseil@gmx.fr</a>
+        </div>
+        <div class="contact-info-item">
+          <h3>Téléphone</h3>
+          <a href="tel:+33750242354">+33 7 50 24 23 54</a>
+        </div>
+        <div class="contact-info-item">
+          <h3>Horaires</h3>
+          <p>Lundi – Vendredi, 9h – 18h</p>
+        </div>
+        <div class="contact-info-item">
+          <h3>Zone d'intervention</h3>
+          <p>France entière</p>
+        </div>
+      </div>
+
+      <div class="social-links">
+        <a href="#" aria-label="LinkedIn ATG Conseil">LinkedIn</a>
+        <a href="#" aria-label="Twitter ATG Conseil">Twitter</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-right">
+    <h2>Envoyez-nous un message</h2>
+
+    <div id="contact-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="prenom">Prénom</label>
+          <input type="text" id="prenom" name="prenom" placeholder="Marie" autocomplete="given-name" />
+        </div>
+        <div class="form-group">
+          <label for="nom">Nom</label>
+          <input type="text" id="nom" name="nom" placeholder="Dupont" autocomplete="family-name" />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="marie@exemple.fr" autocomplete="email" />
+        </div>
+        <div class="form-group">
+          <label for="entreprise">Entreprise</label>
+          <input type="text" id="entreprise" name="entreprise" placeholder="Votre société (optionnel)" autocomplete="organization" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="sujet">Sujet</label>
+        <select id="sujet" name="sujet">
+          <option value="">Sélectionnez un sujet…</option>
+          <option value="devis">Demande de devis</option>
+          <option value="couverture">Diagnostic couverture</option>
+          <option value="etancheite">Diagnostic étanchéité</option>
+          <option value="securite">Diagnostic sécurité</option>
+          <option value="sanitaire">Étude sanitaire bois</option>
+          <option value="plans">Plans et coupes de détails d'exécution</option>
+          <option value="dap">Diagnostic Avant Projet</option>
+          <option value="moa">Accompagnement de Maîtrise d'Ouvrage</option>
+          <option value="autre">Autre</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Budget estimé</label>
+        <div class="budget-options">
+          <div class="budget-option">
+            <input type="radio" name="budget" id="b1" value="moins5k" />
+            <label for="b1">&lt; 5 000 €</label>
+          </div>
+          <div class="budget-option">
+            <input type="radio" name="budget" id="b2" value="5-15k" />
+            <label for="b2">5 – 15 000 €</label>
+          </div>
+          <div class="budget-option">
+            <input type="radio" name="budget" id="b3" value="15-50k" />
+            <label for="b3">15 – 50 000 €</label>
+          </div>
+          <div class="budget-option">
+            <input type="radio" name="budget" id="b4" value="plus50k" />
+            <label for="b4">&gt; 50 000 €</label>
+          </div>
+          <div class="budget-option">
+            <input type="radio" name="budget" id="b5" value="indefini" />
+            <label for="b5">À définir</label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="message">Votre message</label>
+        <textarea id="message" name="message" placeholder="Décrivez votre projet, le type d'ouvrage, la localisation, vos contraintes…"></textarea>
+      </div>
+      <button type="button" class="submit-btn" onclick="submitForm()">Envoyer le message →</button>
+    </div>
+
+    <div class="success-msg" id="success-msg" role="alert" aria-live="polite">
+      <div class="checkmark" aria-hidden="true">✓</div>
+      <h3>Message envoyé !</h3>
+      <p>Merci pour votre message.<br>Nous vous répondrons dans les 24h ouvrées.</p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <span>© 2026 ATG Conseil — Étude de Diagnostic. Tous droits réservés.</span>
+  <span>
+    <a href="#" style="color:inherit; text-decoration:none;">Mentions légales</a> ·
+    <a href="#" style="color:inherit; text-decoration:none;">Politique de confidentialité</a>
+  </span>
+</footer>
+
+<script>
+  function submitForm() {
+    const required = ['prenom', 'nom', 'email', 'message'];
+    let valid = true;
+    required.forEach(id => {
+      const el = document.getElementById(id);
+      if (!el.value.trim()) { el.style.borderColor = '#e55'; valid = false; }
+      else { el.style.borderColor = '#ddd'; }
+    });
+    if (!valid) return;
+    document.getElementById('contact-form').style.display = 'none';
+    document.getElementById('success-msg').style.display = 'block';
+  }
+</script>
+
+</body>
+</html>

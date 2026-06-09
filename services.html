@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Services — ATG Conseil | Diagnostic Charpente, Couverture, Étanchéité, Sécurité</title>
+  <meta name="description" content="ATG Conseil propose des services de diagnostic charpente, couverture, étanchéité, étude sanitaire bois, sécurité des ouvrages et plans d'exécution. Expertise indépendante et fiable." />
+  <meta name="keywords" content="diagnostic charpente, diagnostic couverture, étanchéité toiture, étude sanitaire bois, sécurité toiture, expert bâtiment, maître d'œuvre, ATG Conseil" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.atgconseil.fr/services.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Services — ATG Conseil | Diagnostic Bâtiment" />
+  <meta property="og:description" content="Diagnostic charpente, couverture, étanchéité, sécurité et étude sanitaire bois. Intervention partout en France." />
+  <meta property="og:url" content="https://www.atgconseil.fr/services.html" />
+  <meta property="og:image" content="https://www.atgconseil.fr/logo-atg.png" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Diagnostic technique bâtiment",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "ATG Conseil",
+      "url": "https://www.atgconseil.fr",
+      "telephone": "+33750242354",
+      "email": "atgconseil@gmx.fr"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Services de diagnostic bâtiment",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Diagnostic de charpente", "description": "Analyse des structures bois, détection de pathologies, rapport technique." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Couverture & étanchéité", "description": "Contrôle des couvertures et systèmes d'étanchéité, prévention des infiltrations." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Sécurité des ouvrages", "description": "Évaluation des risques, conformité technique et sécurisation des interventions." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Étude sanitaire bois", "description": "Détection des attaques biologiques, champignons, insectes xylophages." } }
+      ]
+    }
+  }
+  </script>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root { --noir: #111; --gris: #555; --gris-clair: #f5f5f3; --blanc: #fff; --accent: #1e3a6e; --accent-light: #2563eb; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Georgia', serif; background: var(--blanc); color: var(--noir); }
+
+    nav { position: sticky; top: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; padding: 0.6rem 3rem; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); border-bottom: 1px solid #e5e5e5; }
+    .nav-logo { display: flex; align-items: center; text-decoration: none; }
+    .nav-logo img { height: 150px; width: auto; display: block; }
+    .nav-links { display: flex; gap: 2.2rem; list-style: none; }
+    .nav-links a { text-decoration: none; font-family: sans-serif; font-size: 0.88rem; color: var(--gris); transition: color 0.2s; position: relative; }
+    .nav-links a::after { content: ''; position: absolute; left: 0; bottom: -4px; width: 0; height: 2px; background: var(--accent-light); transition: width 0.3s; }
+    .nav-links a:hover, .nav-links a.active { color: var(--accent-light); }
+    .nav-links a:hover::after, .nav-links a.active::after { width: 100%; }
+    .nav-cta { background: var(--accent); color: var(--blanc); border: none; padding: 0.6rem 1.4rem; font-family: sans-serif; font-size: 0.85rem; cursor: pointer; transition: background 0.2s; border-radius: 4px; }
+    .nav-cta:hover { background: var(--accent-light); }
+
+    .page-hero { padding: 6rem 3rem 5rem; border-bottom: 1px solid #e5e5e5; }
+    .page-tag { font-family: sans-serif; font-size: 0.72rem; letter-spacing: 3px; text-transform: uppercase; color: var(--gris); margin-bottom: 1.2rem; }
+    .page-hero h1 { font-size: clamp(2.2rem, 5vw, 4rem); font-weight: normal; line-height: 1.15; max-width: 700px; }
+    .page-hero h1 em { color: var(--accent-light); font-style: italic; }
+    .page-hero p { margin-top: 1.5rem; max-width: 620px; font-family: sans-serif; font-size: 0.97rem; line-height: 1.8; color: var(--gris); }
+
+    .services-full { padding: 5rem 3rem; }
+    .service-row { display: grid; grid-template-columns: 80px 1fr 2fr; gap: 2rem; padding: 3.5rem 0; border-bottom: 1px solid #e5e5e5; }
+    .service-row:last-child { border-bottom: none; }
+    .service-num { font-family: sans-serif; font-size: 0.82rem; color: #bbb; padding-top: 0.3rem; }
+    .service-name h2 { font-size: 1.4rem; font-weight: normal; margin-bottom: 0.7rem; }
+    .tag { display: inline-block; font-family: sans-serif; font-size: 0.7rem; letter-spacing: 1.5px; text-transform: uppercase; background: var(--gris-clair); color: var(--gris); padding: 0.25rem 0.75rem; }
+    .service-detail p { font-family: sans-serif; font-size: 0.92rem; color: var(--gris); line-height: 1.8; margin-bottom: 1.3rem; }
+    .service-detail ul { list-style: none; display: flex; flex-direction: column; gap: 0.45rem; }
+    .service-detail li { font-family: sans-serif; font-size: 0.88rem; color: var(--gris); padding-left: 1.2rem; position: relative; }
+    .service-detail li::before { content: '—'; position: absolute; left: 0; color: var(--accent-light); }
+
+    .cta-band { padding: 5rem 3rem; background: var(--accent); color: var(--blanc); display: flex; justify-content: space-between; align-items: center; gap: 2rem; }
+    .cta-band h2 { font-size: 2rem; font-weight: normal; max-width: 500px; line-height: 1.3; }
+    .btn-accent { background: var(--blanc); color: var(--accent); border: none; padding: 0.95rem 2.2rem; font-family: sans-serif; font-size: 0.9rem; cursor: pointer; transition: opacity 0.2s; border-radius: 4px; font-weight: bold; text-decoration: none; display: inline-block; }
+    .btn-accent:hover { opacity: 0.88; }
+
+    footer { padding: 1.5rem 3rem; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #e5e5e5; font-family: sans-serif; font-size: 0.82rem; color: var(--gris); }
+
+    @media (max-width: 900px) {
+      nav { padding: 0.6rem 1.5rem; }
+      .nav-links { display: none; }
+      .page-hero, .services-full { padding: 3rem 1.5rem; }
+      .service-row { grid-template-columns: 1fr; gap: 0.8rem; }
+      .service-num { display: none; }
+      .cta-band { flex-direction: column; padding: 3rem 1.5rem; text-align: center; }
+      footer { flex-direction: column; gap: 0.5rem; text-align: center; padding: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav aria-label="Navigation principale">
+    <a class="nav-logo" href="index.html" aria-label="ATG Conseil — Accueil">
+      <img src="logo-atg.png" alt="ATG Conseil" width="200" height="80" />
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="services.html" class="active" aria-current="page">Services</a></li>
+      <li><a href="apropos.html">À propos</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html"><button class="nav-cta">Devis gratuit</button></a>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero" aria-labelledby="services-title">
+    <p class="page-tag">Nos expertises</p>
+    <h1 id="services-title">Des diagnostics conçus pour <em>sécuriser vos ouvrages</em></h1>
+    <p>ATG Conseil accompagne particuliers, professionnels et collectivités dans l'analyse technique des charpentes, couvertures, étanchéités et problématiques de sécurité. Chaque intervention donne lieu à un rapport détaillé et des préconisations concrètes.</p>
+  </section>
+
+  <section class="services-full" aria-label="Liste des services">
+    <div>
+
+      <article class="service-row">
+        <span class="service-num" aria-hidden="true">01</span>
+        <div class="service-name">
+          <h2>Diagnostic de charpente</h2>
+          <span class="tag">Structure</span>
+        </div>
+        <div class="service-detail">
+          <p>Analyse des structures bois, recherche de désordres, évaluation de stabilité et préconisations techniques. Intervention sur tous types de charpentes : traditionnelles, industrielles, bois lamellé-collé.</p>
+          <ul>
+            <li>Inspection des éléments porteurs</li>
+            <li>Détection des pathologies du bois (pourriture, insectes xylophages)</li>
+            <li>Contrôle des assemblages et contreventements</li>
+            <li>Rapport technique détaillé avec photos</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="service-row">
+        <span class="service-num" aria-hidden="true">02</span>
+        <div class="service-name">
+          <h2>Couverture &amp; étanchéité</h2>
+          <span class="tag">Protection</span>
+        </div>
+        <div class="service-detail">
+          <p>Contrôle des couvertures et systèmes d'étanchéité afin de prévenir les infiltrations, les dégradations et préserver l'enveloppe du bâtiment sur le long terme.</p>
+          <ul>
+            <li>Recherche de fuites et infiltrations</li>
+            <li>Contrôle de l'état des matériaux (tuiles, ardoises, bacs acier, membrane)</li>
+            <li>Inspection des raccords, noues et points singuliers</li>
+            <li>Préconisations de réparation ou remplacement</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="service-row">
+        <span class="service-num" aria-hidden="true">03</span>
+        <div class="service-name">
+          <h2>Sécurité des ouvrages</h2>
+          <span class="tag">Prévention</span>
+        </div>
+        <div class="service-detail">
+          <p>Évaluation des risques liés aux accès et aux interventions en toiture. Mise en conformité technique et accompagnement pour la sécurisation durable des ouvrages.</p>
+          <ul>
+            <li>Analyse des risques de chute et d'accès</li>
+            <li>Contrôle de conformité des protections collectives et individuelles</li>
+            <li>Préconisations de mise en sécurité</li>
+            <li>Assistance technique lors des interventions</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="service-row">
+        <span class="service-num" aria-hidden="true">04</span>
+        <div class="service-name">
+          <h2>Étude sanitaire bois</h2>
+          <span class="tag">Conservation</span>
+        </div>
+        <div class="service-detail">
+          <p>Évaluation de l'état de conservation des éléments structurels en bois : détection des attaques biologiques (insectes, champignons, humidité) et définition des traitements ou renforcements nécessaires.</p>
+          <ul>
+            <li>Identification des organismes xylophages</li>
+            <li>Évaluation de la résistance résiduelle des éléments</li>
+            <li>Préconisations de traitement curatif ou préventif</li>
+            <li>Rapport d'état et suivi</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="service-row">
+        <span class="service-num" aria-hidden="true">05</span>
+        <div class="service-name">
+          <h2>Plans &amp; coupes d'exécution</h2>
+          <span class="tag">Technique</span>
+        </div>
+        <div class="service-detail">
+          <p>Réalisation de plans de détail et de coupes techniques pour préparer et encadrer les travaux. Accompagnement de la maîtrise d'ouvrage tout au long du projet.</p>
+          <ul>
+            <li>Plans et coupes de détails d'exécution</li>
+            <li>Diagnostic avant projet (DAP)</li>
+            <li>Accompagnement de maîtrise d'ouvrage</li>
+            <li>Assistance technique chantier</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <div class="cta-band">
+    <h2>Un besoin d'expertise ? Parlons de votre projet.</h2>
+    <a href="contact.html" class="btn-accent">Prendre contact →</a>
+  </div>
+</main>
+
+<footer>
+  <span>© 2026 ATG Conseil — Étude de Diagnostic. Tous droits réservés.</span>
+  <span>
+    <a href="#" style="color:inherit; text-decoration:none;">Mentions légales</a> ·
+    <a href="#" style="color:inherit; text-decoration:none;">Politique de confidentialité</a>
+  </span>
+</footer>
+
+</body>
+</html>
